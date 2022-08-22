@@ -1,3 +1,4 @@
+import slim.nets.resnet_v2 as resnet2
 from keras.models import Model
 from keras import backend as K
 from keras.layers import Input, merge, Conv2D, ZeroPadding2D, UpSampling2D, Dense, concatenate, Conv2DTranspose,SeparableConv2D,ReLU
